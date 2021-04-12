@@ -45,37 +45,41 @@ class Contact extends React.Component {
                           <p><i class="fa fa-phone"></i>202-555-0165&nbsp;&nbsp;/&nbsp;&nbsp;202-555-0166</p>
                       </div>
                   </Col>
-                  <Col md={{ span: 6, offset: 2 }}>
+                  <Col md={{ span: 7, offset: 1 }}>
                     <Form onSubmit={this.handleSubmit}>
                       <Row>
                         <Col md={6}>
                             <Form.Group controlId="formBasicFname">
                               <Form.Control type="text" placeholder="First Name" value={this.state.fname} onChange={this.handleChange} name="fname" />
-                              <span>Entered Name: {this.state.fname}</span>
+                              <span>Entered First Name: {this.state.fname}</span>
                               </Form.Group>
                         </Col>
                         <Col md={6}>
                           <Form.Group controlId="formBasicLname">
                             <Form.Control type="text" placeholder="Last Name" value={this.state.lname} onChange={this.handleChange} name="lname" />
+                            <span>Entered Last Name: {this.state.lname}</span>
                           </Form.Group>
                         </Col>
                         <Col md={6}>
                           <Form.Group controlId="formBasicEmail">
                             <Form.Control type="email" placeholder="Email Address" value={this.state.Email} onChange={this.handleChange} name="Email" />
+                            <span>Entered Email: {this.state.Email}</span>
                           </Form.Group>
                         </Col>
                         <Col md={6}>
                           <Form.Group controlId="formBasicPhone">
                             <Form.Control type="number" placeholder="Phone Number" value={this.state.Phone} onChange={this.handleChange} name="Phone" />
+                            <span>Entered Phone Number: {this.state.Phone}</span>
                           </Form.Group>
                         </Col>
                         <Col md={12}>
                           <Form.Group controlId="MessageTextarea">
                             <Form.Control as="textarea" rows={3} placeholder="Message" value={this.state.Message} onChange={this.handleChange} name="Message" />
+                            <span>Entered Message: {this.state.Message}</span>
                           </Form.Group>
                         </Col>
                         <Col md={12}>
-                            <Button variant="outline-primary" type="submit">
+                            <Button variant="outline-primary" type="submit" className="float-right">
                               Submit
                             </Button>
                         </Col>

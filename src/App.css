@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('assets/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*Common*/
+html, body{overflow-x: hidden;}
+body{font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6{margin: 0; padding: 0;}
+ul, li{list-style: none; padding: 0; margin: 0;}
+a{text-decoration: none;}
+a:focus {outline: none;}
+section{padding: 80px 0;}
+p{margin: 0;}
+/*Btn Primary*/
+.btn-outline-primary {color: #7f489a; border-color: #804798;}
+.btn-outline-primary:hover{
+    background: rgba(190,55,125,1);
+    background: -moz-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(190,55,125,1)), color-stop(100%, rgba(125,72,154,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: linear-gradient(135deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be377d', endColorstr='#7d489a', GradientType=1 );
+}
+
+/*Navigation*/
+.navigation{background-color: #f5f5f5;}
+.navigation .navbar-brand {width: 5%;}
+
+/*Banner*/
+.carousel-caption {color: #fff; bottom: 10%;} 
+.carousel-caption h3{font-weight: 800; font-size: 62px;}
+
+/*Footer*/
+.footer{background: rgba(190,55,125,1);
+    background: -moz-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(190,55,125,1)), color-stop(100%, rgba(125,72,154,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    background: linear-gradient(135deg, rgba(190,55,125,1) 0%, rgba(125,72,154,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be377d', endColorstr='#7d489a', GradientType=1 );}
+.footer p{font-size: 16px; color: #fff; text-align: center; padding: 15px 0;}
+
+/*Home*/
+.home-img img{border-radius: 10px;}
+.home-text p{margin-bottom: 25px;}
+
+/*Contact Us*/
+.address{margin-bottom: 20px; border: 1px solid #7f4799; padding: 20px; border-radius: 10px;}
+.address h5{font-size: 18px; padding-bottom: 10px; margin-bottom: 15px;}
+.address p {display: flex; color: #333; font-size: 16px; line-height: 28px; margin-bottom: 15px;}
+.address i {color: #7f4799; font-size: 18px; margin-top: 5px; margin-right: 12px;}
+

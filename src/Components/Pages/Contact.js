@@ -51,7 +51,8 @@ class Contact extends React.Component {
                         <Col md={6}>
                             <Form.Group controlId="formBasicFname">
                               <Form.Control type="text" placeholder="First Name" value={this.state.fname} onChange={this.handleChange} name="fname" />
-                            </Form.Group>
+                              <span>Entered Name: {this.state.fname}</span>
+                              </Form.Group>
                         </Col>
                         <Col md={6}>
                           <Form.Group controlId="formBasicLname">

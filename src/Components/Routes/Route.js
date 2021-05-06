@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router , Switch , Route } from "react-router-dom";
 import Home from '../Pages/Home';
-import About from '../Pages/Contact';
+import Contact from '../Pages/Contact';
+import Team from '../Pages/Team';
 import { Redirect } from 'react-router';
 
 export default function index() {
@@ -16,7 +17,10 @@ export default function index() {
             <Home />
           </Route>
           <Route path="/Contact">
-            <About />
+            <Contact />
+          </Route>
+          <Route path="/Team">
+            <Team />
           </Route>
         </Switch>
       </div>

@@ -6,7 +6,7 @@ const List = ({ lists }) => {
   return (
     <div>
       <Helmet>
-        <title>List</title>
+        <title>Team</title>
       </Helmet>
       <div class="inner-banner">
         <Image class="w-100" src="images/inner-banner.jpg" />

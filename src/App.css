@@ -49,10 +49,12 @@ p{margin: 0;}
 .home-text p{margin-bottom: 25px;}
 
 /*Contact Us*/
-.address{margin-bottom: 20px; border: 1px solid #7f4799; padding: 58px 40px; border-radius: 10px;}
+.address{margin-bottom: 20px; border: 1px solid #7f4799; padding: 22px 40px; border-radius: 10px;}
 .address h5{font-size: 18px; padding-bottom: 10px; margin-bottom: 15px;}
 .address p {display: flex; color: #333; font-size: 16px; line-height: 28px; margin-bottom: 15px;}
 .address i {color: #7f4799; font-size: 18px; margin-top: 5px; margin-right: 12px;}
 
 .form-group span{font-size: 12px; color: #666; padding-left: 5px;}
 hr{border-top: 1px dashed rgb(127 71 153)}
+
+.error {color: #dc3545 !important; display: flex;}
